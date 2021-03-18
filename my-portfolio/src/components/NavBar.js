@@ -31,7 +31,6 @@ export default function ButtonAppBar() {
             Ona Loré
           </Typography>
           <Button color="inherit">Proyects</Button>
-          <Button color="inherit">About</Button>
           <Button color="inherit">Contact</Button>
         </Toolbar>
       </AppBar>
