@@ -6,10 +6,16 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+  },
+  border: {
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    color: "white",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -17,21 +23,24 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
-  offset: theme.mixins.toolbar
+  offset: theme.mixins.toolbar,
 }));
 
 export default function ButtonAppBar() {
   const classes = useStyles();
+  const { push } = useHistory();
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.border}>
         <Toolbar>
           <Typography variant="h5" className={classes.title}>
             Ona Loré
           </Typography>
-          <Button color="inherit">Proyects</Button>
-          <Button color="inherit">Contact</Button>
+          <Button color="black" onClick={() => push("/proyects")}>
+            Proyects
+          </Button>
+          <Button color="black">Contact</Button>
         </Toolbar>
       </AppBar>
       <div className={classes.offset}></div>

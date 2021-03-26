@@ -1,12 +1,16 @@
 import React from "react";
-import { ExpandMore, ChevronRight } from '@material-ui/icons';
+import { ExpandMore, ChevronRight } from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core/styles";
 
-export default function home() {
-    return(
-        <div>
-            Hello!
-            <ExpandMore />
-            <ChevronRight />
-        </div>
-    )
+const useStyles = makeStyles((theme) => ({}));
+
+export default function Home() {
+  const classes = useStyles();
+  return (
+    <div>
+      Hello!
+      <ExpandMore />
+      <ChevronRight />
+    </div>
+  );
 }
