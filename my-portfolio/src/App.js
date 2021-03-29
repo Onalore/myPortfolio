@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
+import Proyects from "./components/Proyects";
 import Home from "./components/Home";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Container, Box } from "@material-ui/core";
@@ -22,10 +24,16 @@ export default function App() {
     <Router>
       <Box color="white" className={classes.background} p={5}>
         <Box color="pink" bgcolor="white" className={classes.box}>
+          <NavBar />
           <Switch>
-            <NavBar />
-            <Route path="/">
+            <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/proyects">
+              <Proyects />
             </Route>
           </Switch>
         </Box>
