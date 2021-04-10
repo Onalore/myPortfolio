@@ -2,13 +2,13 @@ import React from "react";
 import { ExpandMore, ChevronRight } from "@material-ui/icons";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
-import pic from "../assets/Pic.jpeg";
+import pic from "../assets/Pic.jpg";
 import { Fade, Box } from "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles((theme) => ({
   photo: {
-    height: "35vh",
+    height: "25vw",
     borderRadius: 200,
     marginRight: 35,
   },
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontWeight: 2,
-    fontSize: "7vh",
+    fontSize: "6vw",
     color: "white",
     textAlign: "right",
   },

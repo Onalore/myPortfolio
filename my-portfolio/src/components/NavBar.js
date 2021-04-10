@@ -27,13 +27,13 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontWeight: 1,
-    fontSize: "6vh",
+    fontSize: "4vw",
     fontFamily: "Roboto",
     color: "#E2B2CE",
   },
   options: {
     fontWeight: 1,
-    fontSize: "4vh",
+    fontSize: "2vw",
     fontFamily: "Roboto",
     color: "#E2B2CE",
   },
@@ -51,9 +51,9 @@ export default function ButtonAppBar() {
             <Typography className={classes.title}>ONA LORÉ</Typography>
           </Link>
         </Box>
-        <Link style={{ textDecoration: "none" }} to="/proyects">
+        <Link style={{ textDecoration: "none" }} to="/projects">
           <Button className={classes.options} m={5}>
-            Proyects
+            Projects
           </Button>
         </Link>
         <Link style={{ textDecoration: "none" }} to="/contact">
