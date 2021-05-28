@@ -28,13 +28,12 @@ export default function Glyphbooks() {
           <img src={ReactNativeLogo} className={classes.img} />
           <img src={FirebaseLogo} className={classes.img} />
         </Box>
-        <Typography style={{ margin: 15 }}>
+        <Typography style={{ margin: 15, color: "#9B9B9B" }}>
           Development of a Single Page Application.
           <br />
           Some features: search, metrics, incorporation of video calls.
           <br />
           Project carried out in an academic setting. <br />
-          Made in React Native and Firebase.
         </Typography>
       </Box>
     </Box>

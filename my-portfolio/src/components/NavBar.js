@@ -51,7 +51,12 @@ export default function ButtonAppBar() {
             <Typography className={classes.title}>ONA LORÉ</Typography>
           </Link>
         </Box>
-        <Link style={{ textDecoration: "none" }} to="/projects">
+        <Link
+          style={{
+            textDecoration: "none",
+          }}
+          to="/projects"
+        >
           <Button className={classes.options} m={5}>
             Projects
           </Button>

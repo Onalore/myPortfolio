@@ -1,10 +1,11 @@
 import { ChevronLeft, ChevronRight } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-import { Slide, Box, Typography } from "@material-ui/core";
+import { Fade, Box, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import GlyphPic from "../assets/glyphPic.png";
 import AnnePic from "../assets/annePic.png";
 import { shadows } from "@material-ui/system";
+import { useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
   size: {
@@ -41,8 +42,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Projects() {
   const classes = useStyles();
+  const [checked, setChecked] = useState(false);
+
+  const handleChange = () => {
+    setChecked((prev) => !prev);
+  };
   return (
-    <Slide direction="left" in timeout={800} mountOnEnter unmountOnExit>
+    <Fade direction="left" in timeout={800} mountOnEnter unmountOnExit>
       <Box
         display="flex"
         justifyContent="center"
@@ -70,6 +76,6 @@ export default function Projects() {
           </Box>
         </Link>
       </Box>
-    </Slide>
+    </Fade>
   );
 }
