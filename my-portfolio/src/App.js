@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     background: "linear-gradient(135deg, #eef2f3 60%, #D4C4FB 100%)",
   },
   arrow: {
-    fontSize: 40,
+    fontSize: "4vw",
     marginRight: 15,
   },
 }));
