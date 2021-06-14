@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.bdebeeb9.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.40e34659.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.40e34659.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.a5ac29a5.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.a5ac29a5.js.map",
+    "static/js/2.ec7ee92f.chunk.js": "/myPortfolio/static/js/2.ec7ee92f.chunk.js",
+    "static/js/2.ec7ee92f.chunk.js.map": "/myPortfolio/static/js/2.ec7ee92f.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.bdebeeb9.chunk.css.map": "/myPortfolio/static/css/main.bdebeeb9.chunk.css.map",
+    "static/js/2.ec7ee92f.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.ec7ee92f.chunk.js.LICENSE.txt",
+    "static/media/Pic.6be871d6.jpg": "/myPortfolio/static/media/Pic.6be871d6.jpg",
+    "static/media/annePic.ab21a385.png": "/myPortfolio/static/media/annePic.ab21a385.png",
+    "static/media/firebaseLogo.e427c3d5.png": "/myPortfolio/static/media/firebaseLogo.e427c3d5.png",
+    "static/media/glyphPic.1ec8cc3a.png": "/myPortfolio/static/media/glyphPic.1ec8cc3a.png",
+    "static/media/reactNativeLogo.fad73e03.png": "/myPortfolio/static/media/reactNativeLogo.fad73e03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5ac29a5.js",
+    "static/js/2.ec7ee92f.chunk.js",
+    "static/css/main.bdebeeb9.chunk.css",
+    "static/js/main.40e34659.chunk.js"
+  ]
+}
